@@ -1,0 +1,7 @@
+[02-Apr-2024 12:31:03 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\HomeController::productList() in /home/cigaxabd/rewards.cigarbrosapp.com/app/Http/Controllers/HomeController.php on line 132
+[02-Apr-2024 12:32:26 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\HomeController::productList() in /home/cigaxabd/rewards.cigarbrosapp.com/app/Http/Controllers/HomeController.php on line 132
+[02-Apr-2024 12:32:33 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\HomeController::productList() in /home/cigaxabd/rewards.cigarbrosapp.com/app/Http/Controllers/HomeController.php on line 132
+[02-Apr-2024 12:33:45 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\HomeController::productList() in /home/cigaxabd/rewards.cigarbrosapp.com/app/Http/Controllers/HomeController.php on line 132
+[02-Apr-2024 12:34:36 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\HomeController::productList() in /home/cigaxabd/rewards.cigarbrosapp.com/app/Http/Controllers/HomeController.php on line 132
+[02-Apr-2024 12:35:53 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\HomeController::productList() in /home/cigaxabd/rewards.cigarbrosapp.com/app/Http/Controllers/HomeController.php on line 132
+[03-Apr-2024 08:49:15 UTC] PHP Fatal error:  Cannot use Twilio\Rest\Client as Client because the name is already in use in /home/cigaxabd/rewards.cigarbrosapp.com/app/Services/TwilioService.php on line 7
