@@ -10,10 +10,12 @@
     <div class="" style="background-color: #fddb45">
         <div class="row mt-4 mb-6">
             <div class="col-md-12">
-                <section class="banner_section" style="text-align: center;">
-
+                <section class="banner_section">
+                    <h4 style="text-align: center;">Welcome to question portal</h4>
 
                 </section>
+
+
             </div>
         </div>
 
