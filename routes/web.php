@@ -26,14 +26,14 @@ Route::get('/register', function () {
 
 Route::post('/login-action', [AuthController::class, 'loginAction'])->name('login.action');
 Route::post('/register-action', [AuthController::class, 'registerAction'])->name('register.action');
-Route::group(['prefix'=>"user",'middleware' => 'auth'], function () {
+Route::group(['prefix'=>"user",'middleware' => 'auth.user'], function () {
     Route::get('/dashboard', [AuthController::class, 'dashboardView'])->name('dashboard.view');
     Route::get('/question/answer', [UserQuestionController::class, 'questionList'])->name('users.question');
     Route::post('/start/test', [UserQuestionController::class, 'startTest'])->name('users.start.test');
     Route::post('/submit/answer', [UserQuestionController::class, 'submitAnswer'])->name('users.submit.answer');
 
 });
-Route::group(['prefix'=>"admin",'middleware' => 'auth'], function () {
+Route::group(['prefix'=>"admin",'middleware' => 'auth.admin'], function () {
 
     Route::resource('questions', QuestionController::class);
 
